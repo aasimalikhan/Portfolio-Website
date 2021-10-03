@@ -32,11 +32,20 @@ html {
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: rgb(255, 255, 255);
   line-height: 1.9;
   background-image: url('./images/background_all.jpg');
+}
+
+#particles-js {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
 }
 
 /* GENERAL ELEMENTS */
@@ -45,10 +54,6 @@ body {
   border-top: 1px solid #ddd;
 
   transition: transform 1s, opacity 1s;
-}
-
-#section--0 {
-  padding: 10rem 3rem !important;
 }
 
 .section--hidden {
