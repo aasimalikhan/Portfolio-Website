@@ -41,11 +41,15 @@ body {
 }
 
 #particles-js {
-  position: absolute;
-  z-index: -1;
-  height: 100%;
   width: 100%;
-  background: rgb(0, 0, 0);
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  background-color: #000;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 /* GENERAL ELEMENTS */
