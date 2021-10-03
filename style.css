@@ -37,7 +37,7 @@ body {
   font-weight: 300;
   color: rgb(255, 255, 255);
   line-height: 1.9;
-  background-image: url('./images/background_all.jpg');
+  /* background-image: url('./images/background_all.jpg'); */
 }
 
 #particles-js {
