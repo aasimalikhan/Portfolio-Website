@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>aasim - Portfolio Website</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="spin-load">
+      <span class="spinner">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </span>
+    </div>
+    <header class="header">
+      <nav class="nav">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input type="checkbox" id="check">
+        <img
+          src="images/GraphicDesign/logo_3.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--0">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Work</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Resume</a
+            >
+          </li>
+        </ul>
+        <div class="nav__links__short">
+          <a href="https://github.com/aasimalikhan" class="nav__links__logo" target="_blank" ><img class="nav__links__logo__image" src="./images/github.png"></img></a>
+          <a href="https://instagram.com/aasimalikhan.jpeg" target="_blank" class="nav__links__logo" target="_blank"><img class="nav__links__logo__image" src="./images/instagram.png"></img></a>
+        </div>
+        
+        
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          Hello <br />
+          I'm Aasim Ali Khan
+          <!-- Green highlight effect -->
+         
+        </h1>
+        <h4>Developer / Graphic Designer / Engineer</h4>
+        <a href="https://drive.google.com/file/d/1NMwNF1DVKHslK5WWDp-pjSnLaJ0Z7dRm/view?usp=sharing" target="_blank" class="btn--text btn--scroll-to">View CV &DownArrow;</a>
+        <img
+          src="./images/GraphicDesign/kratos_transparent_3.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+    <section class="section" id="section--0">
+        <div class="section__title">
+          <h2 class="section__description">About</h2>
+          <h3 class="section__header">
+            About Me
+          </h3>
+        </div>
+        <div class="aboutme">
+          <div class="aboutme__about">
+            <div class="aboutme__icon">
+              <svg>
+                <use xlink:href="img/icons.svg#icon-info"></use>
+              </svg>
+            </div>
+            <h5 class="aboutme__header">I'm Aasim Ali Khan</h5>
+            <p class="aboutme__description">Currently doing by B-Tech at Indian Institute of technology, Dharwad, <br />
+Iam interested in Full Stack Web Development and I love to develop good-looking and scalable websites <br /><br />
+
+Iam currently looking for opportunities for an Internship this summer.
+            </p>
+          </div>
+          <img
+            src="images/Aasim/aasim_circle_transparent.png"
+            data-src="images/Aasim/aasim_circle_transparent.png"
+            alt="Profile"
+            class="aboutme__img lazy-img"
+          />
+        </div>
+    </section>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">SKILLS</h2>
+        <h3 class="section__header">
+          Technical Skills
+        </h3>
+      </div>
+
+      <div class="items">
+        <div class="items__container">
+            <div class="items__heading">
+                Languages
+            </div>
+            <div class="items__all">
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/javascript.png"/>
+                    <div class="items__text">javascript</div>
+                  </div>
+                </div>
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/cpp.png"/>
+                    <div class="items__text">c++</div>
+                  </div>
+                </div>
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/html.png"/>
+                    <div class="items__text">html</div>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="items__container">
+          <div class="items__heading">
+            Frameworks
+            </div>
+            <div class="items__all">
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/react.png"/>
+                    <div class="items__text">ReactJS</div>
+                  </div>
+                </div>
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/node.png"/>
+                    <div class="items__text">NodeJS</div>
+                  </div>
+                </div>
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/three.png"/>
+                    <div class="items__text">ThreeJS</div>
+                  </div>
+                </div>
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/redux.png"/>
+                    <div class="items__text">Redux</div>
+                  </div>
+                </div>
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/mongo.png"/>
+                    <div class="items__text">MongoDB</div>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="items__container">
+          <div class="items__heading">
+            Tools
+            </div>
+            <div class="items__all">
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/git.png"/>
+                    <div class="items__text">Git</div>
+                  </div>
+                </div>
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/windows.png"/>
+                    <div class="items__text">Windows</div>
+                  </div>
+                </div>
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/vscode.png"/>
+                    <div class="items__text">VS Code</div>
+                  </div>
+                </div>
+                <div class="items__item">
+                  <div class="items__content">
+                    <img class="items__img" src="./images/postman.png"/>
+                    <div class="items__text">Postman</div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital bank</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+            inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+            quibusdam!
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+            Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+            eveniet consequatur odit quam quos possimus assumenda dicta fuga
+            inventore ab.
+          </p>
+        </div>
+      </div> -->
+    </section>
+    
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">RESUME</h2>
+        <h3 class="section__header">
+          My Resume.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            Education
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            Skills
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            Links
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-book-open"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Education
+          </h5>
+          <p>
+           <div></div>
+           <ul class="operations__mainlist">
+             <li>
+               <span class="operations__mainlist__heading">IIT Dharwad</span>
+                <ul class="operations__sublist">
+                 <li>CGPA: <b>7.26</b></li>
+                 <li>Relevant Courses: Data Structures and Algorithms &nbsp;&nbsp;|&nbsp;&nbsp; Discrete Mathematics &nbsp;&nbsp;|&nbsp;&nbsp; Computer Programming &nbsp;&nbsp;|&nbsp;&nbsp; Database Management Systems </li>
+               </ul>
+             </li>
+             <li><span class="operations__mainlist__heading">Narayana IIT Academy</span>
+                <ul class="operations__sublist">
+                  <li> Percentage: <b>94.5</b></li>
+                </ul>
+              </li>
+              <li><span class="operations__mainlist__heading">Nagarjuna High School</span>
+                <ul class="operations__sublist">
+                  <li>Percentage: <b>9.5 CGPA</b></li>
+                </ul>
+              </li>
+           </ul>
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-code"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Skills
+          </h5>
+          <p>
+           <div></div>
+           <ul class="operations__mainlist">
+             <li>
+               <span class="operations__mainlist__heading">Languages</span>
+                <ul class="operations__sublist">
+                 <li>C / C++ &nbsp;&nbsp;|&nbsp;&nbsp; HTML &nbsp;&nbsp;|&nbsp;&nbsp; CSS &nbsp;&nbsp;|&nbsp;&nbsp; javascript &nbsp;&nbsp;|&nbsp;&nbsp; MySQl</li>
+               </ul>
+             </li>
+             <li><span class="operations__mainlist__heading">Technologies / frameworks</span>
+                <ul class="operations__sublist">
+                  <li>ReactJS &nbsp;&nbsp;|&nbsp;&nbsp; Redux &nbsp;&nbsp;|&nbsp;&nbsp; NodeJS &nbsp;&nbsp;|&nbsp;&nbsp; MongoDB &nbsp;&nbsp;|&nbsp;&nbsp; Mongoose &nbsp;&nbsp;|&nbsp;&nbsp; MySQL &nbsp;&nbsp;|&nbsp;&nbsp; Sass(SCSS) &nbsp;&nbsp;|&nbsp;&nbsp; ThreeJS</li>
+                </ul>
+              </li>
+              <li><span class="operations__mainlist__heading">Tools</span>
+                <ul class="operations__sublist">
+                  <li>Git &nbsp;&nbsp;|&nbsp;&nbsp; VSCode &nbsp;&nbsp;|&nbsp;&nbsp; Postman </li>
+                </ul>
+              </li>
+              <li><span class="operations__mainlist__heading">Extracurricular Skills</span>
+                <ul class="operations__sublist">
+                  <li><b>Graphic Design: </b> Adobe Photoshop &nbsp;&nbsp;|&nbsp;&nbsp; Adobe Illustrator &nbsp;&nbsp;</li>
+                </ul>
+              </li>
+           </ul>
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-external-link"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Links &nbsp;&nbsp;|&nbsp;&nbsp; Achievements
+          </h5>
+          <p>
+           <div></div>
+           <ul class="operations__mainlist">
+             <li>
+               <span class="operations__mainlist__heading"><a href="https://leetcode.com/aasimalikhan54321/" target="_blank">LeetCode</a></span>
+             </li>
+             <li>
+              <span class="operations__mainlist__heading"><a href="https://auth.geeksforgeeks.org/user/bruhmantri/" target="_blank"></a>GeeksForGeeks</a></span>
+            </li>
+            <li>
+              <span class="operations__mainlist__heading"><a href="https://www.hackerrank.com/Aasim_Ali" target="_blank">hackerrank</a></span>
+            </li>
+            
+           </ul>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">WORK</h2>
+        <h3 class="section__header">
+          Graphic Design  |  Sketches
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Abeloth Artwork</h5> -->
+            <div class="testimonial__image__container">
+              <img class="testimonial__image" src="images/GraphicDesign/abeloth_landscape.jpg"/>
+              <p class="testimonial__image__description">Digital Art</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Godzilla SciFi Artwork</h5> -->
+            <div class="testimonial__image__container">
+              <img class="testimonial__image" src="images/GraphicDesign/kong_landscape.jpg"/>
+              <p class="testimonial__image__description">Digital Art</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+            <div class="testimonial__image__container">
+              <img class="testimonial__image" src="images/GraphicDesign/tom_landscape.jpg"/>
+              <p class="testimonial__image__description">Digital Art</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+            <div class="testimonial__image__container">
+              <img class="testimonial__image" src="images/GraphicDesign/tiger_square.jpg"/>
+              <p class="testimonial__image__description">Sketch</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+            <div class="testimonial__image__container">
+              <img class="testimonial__image" src="images/GraphicDesign/monster_square.jpg"/>
+              <p class="testimonial__image__description">Digital Art</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+            <div class="testimonial__image__container">
+              <img class="testimonial__image" src="images/GraphicDesign/tomd_square.jpg"/>
+              <p class="testimonial__image__description">Digital Art</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+            <div class="testimonial__image__container">
+              <img class="testimonial__image" src="images/GraphicDesign/joker_square.jpg"/>
+              <p class="testimonial__image__description">Sketch</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+            <div class="testimonial__image__container">
+              <img class="testimonial__image" src="images/GraphicDesign/ronaldo_square.jpg"/>
+              <p class="testimonial__image__description">Sketch</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+            <div class="testimonial__image__container">
+              <img class="testimonial__image" src="images/GraphicDesign/dino_square.jpg"/>
+              <p class="testimonial__image__description">Sketch</p>
+            </div>
+          </div>
+        </div>     
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Projects</h2>
+        <h3 class="section__header">
+          Web Development
+        </h3>
+      </div>
+
+      <div class="section-images">
+        <div class="projects">
+          <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+          <div class="projects__image__container">
+            <a href="https://hopeful-hermann-3c15de.netlify.app/" target="_blank" >
+            <img class="projects__image" src="images/project_images/photos_app.png"/>
+            <p class="projects__image__heading">Photo's App</p>
+            <p class="projects__image__description">React Application where you can search something and it will show you image results gathered from applications (Unsplash, pixabay, pexels)</p>
+            </a>
+          </div>
+
+          <div class="projects__image__container">
+            <a href="https://hardcore-easley-2fb1d5.netlify.app/" target="_blank" >
+            <img class="projects__image" src="images/project_images/wiki_app.png"/>
+            <p class="projects__image__heading">Wikipedia App</p>
+            <p class="projects__image__description">React Application which uses Wikipedia API to fetch search term results, The UI displays top 10 results which match with the search term</p>
+            </a>
+            
+          </div>
+
+          <div class="projects__image__container">
+            <a href="https://infallible-pike-2e11bb.netlify.app/" target="_blank" >
+            <img class="projects__image" src="images/project_images/youtube_app.png"/>
+            <p class="projects__image__heading">Youtube App</p>
+            <p class="projects__image__description">React Application which uses Youtube's API and displays search videos similar to the UI of Youtube</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="projects">
+          <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+          <div class="projects__image__container">
+            <a href="https://hopeful-hermann-3c15de.netlify.app/" target="_blank" >
+            <img class="projects__image" src="images/project_images/weather.png"/>
+            <p class="projects__image__heading">Weather App</p>
+            <p class="projects__image__description">React Application where you can search something and it will show you image results gathered from applications (Unsplash, pixabay, pexels)</p>
+            </a>
+          </div>
+
+          <div class="projects__image__container">
+            <a href="https://hardcore-easley-2fb1d5.netlify.app/" target="_blank">
+            <img class="projects__image" src="images/project_images/galaxyCreator.png"/>
+            <p class="projects__image__heading">Galaxy Creator App</p>
+            <p class="projects__image__description">React Application which uses Wikipedia API to fetch search term results, The UI displays top 10 results which match with the search term</p>
+            </a>
+            
+          </div>
+
+          <div class="projects__image__container">
+            <a href="https://github.com/aasimalikhan/SocialShare/tree/master" target="_blank">
+            <img class="projects__image" src="images/project_images/social.png"/>
+            <p class="projects__image__heading">Social Share App</p>
+            <p class="projects__image__description">Social Media Application built using HTML, CSS, MySQL, php, Where you can make a profile, add friends, send messages and connect with other people </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    
+
+    
+
+    
+
+    <!-- <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join Bankist was one year ago. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section> -->
+
+    <footer class="footer">
+      
+      <p class="footer__copyright">
+        Designed and Developed by 
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://github.com/aasimalikhan"
+          >Aasim Ali Khan</a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
