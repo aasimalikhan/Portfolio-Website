@@ -1390,11 +1390,14 @@ h4 {
     position: fixed;
     width: 50%;
     /* height: 35vh; */
-    background: #6c6c6c;
+    backdrop-filter: blur(10px);
+    background: #6c6c6cde;
+
     top: 7rem;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
+    border-radius: 0 0 10px 10px;
   }
 
   .nav__item {
