@@ -1,4 +1,6 @@
 'use strict';
+document.addEventListener("DOMContentLoaded", function(){
+  //....
 
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
@@ -296,3 +298,4 @@ document.body.onload = function(){
     preloader.style.display = 'none';
 }
 
+});

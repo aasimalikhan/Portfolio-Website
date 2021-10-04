@@ -27,9 +27,13 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  overflow: hidden;
+  height: 100%;
 }
 
 body {
+  overflow: auto;
+  height: 100%;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -133,7 +137,7 @@ img {
 }
 
 .lazy-img {
-  filter: blur(20px);
+  filter: blur(2px);
 }
 
 /* NAVIGATION */
@@ -855,6 +859,21 @@ h4 {
   font-size: 1.4rem;
 }
 
+.footer__note {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.footer__btn {
+  display: block;
+  margin: auto;
+  padding: 0.3rem 0.8rem;
+  color: #fff;
+  border: none;
+  background: #000;
+  border-radius: 5px;
+  text-align: center;
+}
 /* MODAL WINDOW */
 .modal {
   position: fixed;
