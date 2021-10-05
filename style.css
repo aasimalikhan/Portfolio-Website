@@ -39,17 +39,27 @@ body {
   font-weight: 300;
   color: rgb(255, 255, 255);
   line-height: 1.9;
-  background: #000;
-  /* background-image: url('./images/background_all.jpg'); */
+  background-image: url('./images/background_all.jpg');
 }
 
+#particles-js:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url('./images/background_all.jpg');
+  opacity: 0.2;
+}
 #particles-js {
   width: 100vw;
   height: 100vh;
   z-index: -1;
   position: fixed;
   /* background-color: #000; */
-  background-image: url('./images/background_all.jpg');
+  /* background-image: url('./images/background_all.jpg'); */
+  /* background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    url('./images/background_all.jpg'); */
   /* background-image: url(''); */
   /* background-size: cover; */
   /* background-position: 50% 50%; */
